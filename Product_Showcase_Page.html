@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="Product_Showcase_Page.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product-name">Amazing Product</div>
+        <div class="product-description">This is a brief description of the product that highlights its key features and benefits. Perfect for everyday use!</div>
+        <div class="pricing">$49.99</div>
+
+        <div class="product-images">
+            <img src="main-product-image.jpg" alt="Main Product Image" class="main-image">
+            <img src="additional-image1.jpg" alt="Additional Image 1">
+            <img src="additional-image2.jpg" alt="Additional Image 2">
+            <img src="additional-image3.jpg" alt="Additional Image 3">
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="#">Shilpi kumari</a>. All rights reserved.</p>
+        <h2>Product Details</h2>
+        <p>The MSI GL63 Gaming Laptop is the ultimate addition to equipment of any avid gamer. It has a Windows 10 operating system with processor speeds of 2.20 GHz. The 8 GB of memory stored in this MSI gaming laptop will ensure that any game can be played with speed and accuracy. It also boasts a backlit keyboard that gives it a hardcore appearance. This 15.6" gaming laptop has a built-in webcam that will allow you to video chat and communicate with fellow gamers across the globe as you play.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const productName = document.querySelector('.product-name');
+            const productDescription = document.querySelector('.product-description');
+            const pricing = document.querySelector('.pricing');
+
+            productName.textContent = "Super Gadget";
+            productDescription.textContent = "The ultimate gadget to make your life easier and more enjoyable. Compact, efficient, and affordable!";
+            pricing.textContent = "$99.99";
+        });
+    </script>
+</body>
+</html>
